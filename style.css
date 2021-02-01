@@ -1,0 +1,38 @@
+#heading{
+    background-color: #34a9e3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 5px;
+    font-size: 35px;
+    color: white;
+    font-family: 'Yusei Magic', sans-serif;;
+}
+.example{
+    text-align: left;
+    width: 19.3125%;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    animation-name: Example_1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 1px solid #34a9e3 ;
+}
+@keyframes Example_1{
+        0% {box-shadow:1px 1px 40px #a8dad4;} 
+        100%{box-shadow: 1px 1px 20px #a8dad4;}
+}
+#result{
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    background-color: #34a9e3;
+    border: 1px solid #34a9e3;
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+}
+.images{
+    height: 200px;
+}
